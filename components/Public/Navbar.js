@@ -47,22 +47,19 @@ const Navbar = () => {
                         <div className={navbar_styles.menu}>
                             <ul>
                                 <li>
-                                    <a href="">Home</a>
+                                    <a href="">Listing</a>
                                 </li>
                                 <li>
                                     <a href="service">Services</a>
                                 </li>
                                 <li>
-                                    <a href="Find-Blood">Find Donor</a>
+                                    <a href="Find-Blood">Write Listing</a>
                                 </li>
                                 <li>
                                     <a href="blog">Blog</a>
                                 </li>
                                 <li>
                                     <a href="about">About</a>
-                                </li>
-                                <li>
-                                    <a href="contact">Contact</a>
                                 </li>
                                 {/* <li>
                                     <a href="login">login</a>

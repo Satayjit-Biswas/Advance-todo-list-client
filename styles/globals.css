@@ -1,4 +1,4 @@
-/* First color  #bb0b0b; */
+/* First color  #dd0211; */
 /* hover color  #8a0000; */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 html,
@@ -50,7 +50,7 @@ img {
     padding: 18px 35px 18px 35px;
     border-radius: 0px 0px 0px 0px;
     color: #fff;
-    background: #bb0b0b;
+    background: #dd0211;
     overflow: hidden;
     position: relative;
     font-size: 17px;
@@ -70,7 +70,7 @@ img {
     z-index: -1;
     opacity: 0;
     transition: 0.4s;
-    background-color: #8a0000;
+    background-color: #dd0211;
 }
 .custom_btn a:hover:after {
     width: 300px;
@@ -78,7 +78,7 @@ img {
     opacity: 1;
 }
 .Active {
-    background-color: #bb0b0b;
+    background-color: #dd0211;
     color: #fff;
 }
 .upper_line {
@@ -91,7 +91,7 @@ img {
     left: 0;
     width: 70px;
     height: 7px;
-    background-color: #bb0b0b;
+    background-color: #dd0211;
 }
 .top_bottom_gap {
     padding: 85px 0;
@@ -105,10 +105,10 @@ img {
     color: rgb(196, 196, 196);
 }
 .testimonial_right .swiper-pagination-bullet {
-    background-color: #bb0b0b !important;
+    background-color: #dd0211 !important;
 }
 .testimonial_right .swiper-pagination-bullet-active {
-    background-color: #bb0b0b !important;
+    background-color: #dd0211 !important;
 }
 .testimonial_right
     .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-backface-hidden {
