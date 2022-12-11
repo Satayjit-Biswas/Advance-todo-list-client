@@ -9,7 +9,7 @@ const Navbar = () => {
     const add_class = useRef();
     const click_profile = useRef();
     const scrolling = () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 80) {
             add_class.current.className = `${navbar_styles.header_area}${" "} ${
                 navbar_styles.sticky
             }`;
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className={navbar_styles.bottom_header_area}>
                         <div className={navbar_styles.logo}>
-                            <a href="#">
+                            <a href=".">
                                 <Image src={logo} width="160" height="80" />
                             </a>
                         </div>

@@ -1,10 +1,10 @@
-.footer_area{
-    background-color: #11093a;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer_area {
+  background-color: #11093a;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer_area p{
-    color: #fff;
+.footer_area p {
+  color: #fff;
 }

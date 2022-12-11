@@ -1,3 +1,73 @@
-.Slider_area{
-  height: 100vh;
+.Slider_area {
+  margin-top: 70px;
+  background-image: url("../assets/img/t2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Slider_area_overly {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.Slider_area_box {
+  min-height: calc(100vh - 130px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+}
+.todo_box {
+  width: 60%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 3px rgb(120 120 120);
+}
+.input_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.input_box span {
+  position: absolute;
+  left: 10px;
+  font-size: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input_box button {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+.input_box input {
+  width: 100%;
+  padding: 18px 50px;
+  background-color: rgba(179, 179, 179, 0.2);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: rgb(104, 104, 104);
+  font-size: 18px;
+  font-weight: 400;
+}
+.todo_text ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+.todo_text ul li div {
+  display: flex;
+  align-items: center;
+}
+.todo_text ul li div input {
+  margin-right: 15px;
 }
