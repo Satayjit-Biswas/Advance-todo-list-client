@@ -24,38 +24,17 @@ const Slider = () => {
                   <ul>
                     <li>
                       <div>
-                        <input type="checkbox" name="" id="" />
+                        <input
+                          className={`${home_styles.checked}`}
+                          type="checkbox"
+                          name=""
+                          id=""
+                        />
                         <p>kdjfkas</p>
                       </div>
-                      <BsXOctagon />
-                    </li>
-                    <li>
-                      <div>
-                        <input type="checkbox" name="" id="" />
-                        <p>kdjfkas</p>
+                      <div className={`${home_styles.delete}`}>
+                        <BsXOctagon />
                       </div>
-                      <BsXOctagon />
-                    </li>
-                    <li>
-                      <div>
-                        <input type="checkbox" name="" id="" />
-                        <p>kdjfkas</p>
-                      </div>
-                      <BsXOctagon />
-                    </li>
-                    <li>
-                      <div>
-                        <input type="checkbox" name="" id="" />
-                        <p>kdjfkas</p>
-                      </div>
-                      <BsXOctagon />
-                    </li>
-                    <li>
-                      <div>
-                        <input type="checkbox" name="" id="" />
-                        <p>kdjfkas</p>
-                      </div>
-                      <BsXOctagon />
                     </li>
                   </ul>
                 </div>
@@ -72,11 +51,14 @@ const Slider = () => {
                       <li>
                         <a href="#">Complete</a>
                       </li>
-                      <li>
+                      <li className={`${home_styles.reset}`}>
                         <a href="#">reset</a>
                       </li>
                     </ul>
                   </div>
+                </div>
+                <div className={`${home_styles.save}`}>
+                  <div className="custom_btn">Save</div>
                 </div>
               </div>
             </div>

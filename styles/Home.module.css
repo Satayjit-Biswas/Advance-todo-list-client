@@ -56,9 +56,13 @@
   font-size: 18px;
   font-weight: 400;
 }
+.todo_text {
+  margin: 20px 0;
+}
 .todo_text ul li {
   list-style: none;
   display: flex;
+  text-transform: capitalize;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
@@ -70,4 +74,40 @@
 }
 .todo_text ul li div input {
   margin-right: 15px;
+  color: green;
+}
+.delete {
+  transition: 0.3s;
+}
+.delete:hover {
+  color: #dd0211;
+  cursor: pointer;
+}
+.todo_task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo_task_menu ul {
+  display: flex;
+  align-items: center;
+}
+.todo_task_menu ul li {
+  list-style: none;
+  padding: 0 5px;
+}
+.todo_task_menu ul li a {
+  display: inline-block;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.todo_task_menu ul li a:hover {
+  color: green;
+}
+.reset a:hover {
+  color: #dd0211 !important;
+}
+.save {
+  margin-top: 20px;
+  text-align: center;
 }

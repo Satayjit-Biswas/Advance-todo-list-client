@@ -61,9 +61,9 @@ const Navbar = () => {
                                 <li>
                                     <a href="about">About</a>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <a href="login">login</a>
-                                </li> */}
+                                </li>
                                 <li>
                                     <div
                                         className={`${navbar_styles.login_icon}`}
